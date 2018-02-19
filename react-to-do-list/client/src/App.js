@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './components/Nav';
 import Jumbotron from './components/Jumbotron';
 import AddToDo from './components/AddToDo';
+import ToDoItem from './components/ToDoItem/ToDoItem';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Nav />
         <Jumbotron />
         <AddToDo />
+        <ToDoItem />
       </div>
     )
   }
